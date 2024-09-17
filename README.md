@@ -1,10 +1,10 @@
-#zap-gpt
+# zap-gpt
 
 The integration will allow users to interact with ChatGPT via text messages on WhatsApp, providing automated responses based on their questions and commands
 
 ## Technologies
 
-- [OpenIA](https://beta.openai.com/)
+- [OpenAI](https://beta.openai.com/)
 - [whatsapp-web.js](https://wwebjs.dev/)
 
 ## Run the project
@@ -21,10 +21,13 @@ Now install the project dependencies with the command:
 
 ```bash
 npm install
+yarn
+
 ```
 
 Finally, run the command below to start the project and read the QR Code with your WhatsApp to connect to the service.
 
 ```bash
 npm start
+yarn start
 ```
